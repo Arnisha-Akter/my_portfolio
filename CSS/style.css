@@ -1,3 +1,23 @@
-*{
-    background-color: blue;
+body{
+    font-family: 'Poppins', sans-serif;
 }
+h1{
+    font-size: 50px;
+}
+#name{
+    color: orchid;
+}
+section{
+    display: flex;
+}
+.half-w{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-w img{
+    width: 100%;
+}
+#id{
+    background-color: brown;
+}
+
