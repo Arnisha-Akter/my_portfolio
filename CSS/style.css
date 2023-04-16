@@ -1,5 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    background-color: aliceblue;
 }
 h1{
     font-size: 50px;
@@ -11,13 +13,29 @@ section{
     display: flex;
 }
 .half-w{
-    width: 50%;
+    height: 500px;
+    width: 100%;
     padding-left: 5%;
 }
 .half-w img{
+    /* height: 500px; */
     width: 100%;
+    height: 100%;
 }
-#id{
-    background-color: brown;
+#btn{
+    text-decoration: none;
+    background-image: linear-gradient(brown, pink);
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.banner{
+    background: #FFF8F3;
+    background-image: url('../images/developer.png'), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-position: bottom left, right;
+
 }
 
